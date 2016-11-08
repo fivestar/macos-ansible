@@ -1,0 +1,39 @@
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/dupes
+  - homebrew/php
+
+homebrew_packages:
+  - { name: ansible }
+  - { name: autoconf }
+  - { name: awscli }
+  - { name: cmake }
+  - { name: coreutils }
+  - { name: findutils }
+  - { name: ghq }
+  - { name: git }
+  - { name: go }
+  - { name: openssl }
+  - { name: peco }
+  - { name: php70 }
+  - { name: php70-apcu }
+  - { name: php70-gmp }
+  - { name: php70-intl }
+  - { name: php70-memcached }
+  - { name: php70-opcache }
+  - { name: php70-xdebug }
+  - { name: python }
+  - { name: readline }
+  - { name: screen }
+  - { name: source-highlight }
+  - { name: the_silver_searcher }
+  - { name: wget }
+  - { name: zsh }
+
+homebrew_cask_packages:
+  - { name: atom }
+  - { name: java }
+  - { name: phpstorm }
+  - { name: vagrant }
+  - { name: virtualbox }
+
