@@ -3,24 +3,6 @@
   become: no
   environment:
     HOMEBREW_CASK_OPTS: "--appdir=/Applications"
-  tasks:
-    - name: Tap Homebrew Repositories
-      homebrew_tap: tap={{ item }} state=present
-      with_items: "{{ homebrew_taps }}"
-
-    - name: Update Homebrew
-      homebrew: update_homebrew=yes
-
-    - name: Install Homebrew Packages
-      homebrew:
-        name={{ item.name }}
-        state={{ item.state|default('latest') }}
-        install_options={{ item.install_option|default('') }}
-      with_items: "{{ homebrew_packages }}"
-
-    - name: Install Homebrew Cask Packages
-      homebrew_cask:
-        name={{ item.name }}
-        state={{ item.state|default('present') }}
-      with_items: "{{ homebrew_cask_packages }}"
+  roles:
+    - homebrew
 

@@ -9,6 +9,7 @@ homebrew_packages:
   - { name: awscli }
   - { name: cmake }
   - { name: coreutils }
+  - { name: curl }
   - { name: findutils }
   - { name: ghq }
   - { name: git }
