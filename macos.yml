@@ -4,5 +4,5 @@
   environment:
     HOMEBREW_CASK_OPTS: "--appdir=/Applications"
   roles:
-    - homebrew
+    - { role: homebrew, tags: ['homebrew'] }
 

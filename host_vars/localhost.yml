@@ -10,11 +10,13 @@ homebrew_packages:
   - { name: cmake }
   - { name: coreutils }
   - { name: curl }
+  - { name: curl, state: linked, install_options: force }
   - { name: findutils }
   - { name: ghq }
   - { name: git }
   - { name: go }
   - { name: openssl }
+  - { name: openssl, state: linked, install_options: force }
   - { name: peco }
   - { name: php70 }
   - { name: php70-apcu }
@@ -35,6 +37,7 @@ homebrew_cask_packages:
   - { name: atom }
   - { name: java }
   - { name: phpstorm }
+  - { name: skype }
   - { name: vagrant }
   - { name: virtualbox }
 
