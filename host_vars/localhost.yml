@@ -8,6 +8,7 @@ homebrew_packages:
   - { name: autoconf }
   - { name: awscli }
   - { name: cmake }
+  - { name: composer }
   - { name: coreutils }
   - { name: curl }
   - { name: curl, state: linked, install_options: force }
@@ -18,13 +19,14 @@ homebrew_packages:
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: peco }
-  - { name: php70 }
-  - { name: php70-apcu }
-  - { name: php70-gmp }
-  - { name: php70-intl }
-  - { name: php70-memcached }
-  - { name: php70-opcache }
-  - { name: php70-xdebug }
+  - { name: php71 }
+  - { name: php71-apcu }
+  - { name: php71-gmp }
+  - { name: php71-imagick }
+  - { name: php71-intl }
+  - { name: php71-memcached }
+  - { name: php71-opcache }
+  - { name: php71-xdebug }
   - { name: python }
   - { name: readline }
   - { name: screen }
