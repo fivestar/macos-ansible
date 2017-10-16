@@ -37,10 +37,10 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - { name: atom }
-  - { name: caffeine }
   - { name: firefox }
   - { name: google-chrome }
   - { name: java }
+  - { name: keepingyouawake }
   - { name: phpstorm }
   - { name: skype }
   - { name: vagrant }
