@@ -32,6 +32,7 @@ homebrew_packages:
   - { name: screen }
   - { name: source-highlight }
   - { name: the_silver_searcher }
+  - { name: vim }
   - { name: wget }
   - { name: zsh }
 
