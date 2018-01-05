@@ -38,6 +38,7 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - { name: atom }
+  - { name: docker }
   - { name: firefox }
   - { name: google-chrome }
   - { name: java }
