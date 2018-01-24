@@ -16,6 +16,8 @@ homebrew_packages:
   - { name: ghq }
   - { name: git }
   - { name: go }
+  - { name: jq }
+  - { name: mysql, install_options: client-only }
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: peco }
