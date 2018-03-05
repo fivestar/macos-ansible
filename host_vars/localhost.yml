@@ -21,14 +21,14 @@ homebrew_packages:
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: peco }
-  - { name: php71 }
-  - { name: php71-apcu }
-  - { name: php71-gmp }
-  - { name: php71-imagick }
-  - { name: php71-intl }
-  - { name: php71-memcached }
-  - { name: php71-opcache }
-  - { name: php71-xdebug }
+  - { name: php72 }
+  - { name: php72-apcu }
+  - { name: php72-gmp }
+  - { name: php72-imagick }
+  - { name: php72-intl }
+  - { name: php72-memcached }
+  - { name: php72-opcache }
+  - { name: php72-xdebug }
   - { name: python }
   - { name: readline }
   - { name: screen }
@@ -42,11 +42,7 @@ homebrew_cask_packages:
   - { name: atom }
   - { name: docker }
   - { name: firefox }
-  - { name: google-chrome }
-  - { name: java }
   - { name: keepingyouawake }
   - { name: phpstorm }
   - { name: skype }
-  - { name: vagrant }
-  - { name: virtualbox }
 
