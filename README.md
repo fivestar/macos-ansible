@@ -1,15 +1,20 @@
-# macOS
+# macos-ansible
 
-## Set up
+## Setting up the macOS with Ansible
+
+### Installing essentials
 
 ```console
-% sudo xcodebuild -license
-% ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-% brew install ansible
+$ sudo xcodebuild -license
+$ xcode-select --install
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew install ansible
 ```
 
+### Executing a playbook
+
 ```console
-% ansible-playbook  macos.yml
+$ ansible-playbook macos.yml
 ```
 
 ### As you like it
