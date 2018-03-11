@@ -20,6 +20,18 @@ $ ansible-playbook macos.yml
 ### As you like it
 
 * [Shougo/dein.vim](https://github.com/Shougo/dein.vim)
-* [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
-* [Cloud SDK - Google Cloud Platform](https://cloud.google.com/sdk/downloads#interactive)
+    ```console
+    $ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | sh -s -- ~/.cache/dein
+    ```
 
+* [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+    ```console
+    $ ghq get https://github.com/tomislav/osx-terminal.app-colors-solarized.git
+    ```
+
+* [Cloud SDK - Google Cloud Platform](https://cloud.google.com/sdk/downloads#interactive)
+    ```console
+    $ curl https://sdk.cloud.google.com | bash
+    $ gcloud auth login
+    $ gcloud auth application-default login
+    ```
