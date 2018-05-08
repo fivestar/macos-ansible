@@ -22,7 +22,6 @@ homebrew_packages:
   - { name: openssl, state: linked, install_options: force }
   - { name: peco }
   - { name: php }
-  - { name: php72-xdebug }
   - { name: python }
   - { name: readline }
   - { name: rename }
