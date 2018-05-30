@@ -1,5 +1,5 @@
 homebrew_taps:
-  - caskroom/cask
+  - homebrew/cask
   - homebrew/dupes
   - homebrew/php
 
