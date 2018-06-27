@@ -1,7 +1,5 @@
 homebrew_taps:
   - homebrew/cask
-  - homebrew/dupes
-  - homebrew/php
 
 homebrew_packages:
   - { name: ansible }
