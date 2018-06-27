@@ -11,6 +11,11 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 $ brew install ansible
 ```
 
+```console
+$ git clone git@github.com:fivestar/macos-ansible.git src/github.com/fivestar/macos-ansible
+$ cd src/github.com/fivestar/macos-ansible
+```
+
 ### Executing a playbook
 
 ```console
@@ -21,6 +26,7 @@ $ ansible-playbook macos.yml
 
 * [Shougo/dein.vim](https://github.com/Shougo/dein.vim)
     ```console
+    $ pip3 install neovim
     $ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | sh -s -- ~/.cache/dein
     ```
 
