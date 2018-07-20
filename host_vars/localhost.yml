@@ -15,7 +15,8 @@ homebrew_packages:
   - { name: git }
   - { name: go }
   - { name: jq }
-  - { name: mysql, install_options: client-only }
+  - { name: mysql-client }
+  - { name: mysql-client, state: linked, install_options: force }
   - { name: nodebrew }
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
