@@ -1,5 +1,6 @@
 homebrew_taps:
   - homebrew/cask
+  - homebrew/core
 
 homebrew_packages:
   - { name: ansible }
@@ -35,7 +36,8 @@ homebrew_packages:
 homebrew_cask_packages:
   - { name: atom }
   - { name: docker }
-  - { name: firefox }
+  - { name: graphviz }
+  - { name: java }
   - { name: keepingyouawake }
   - { name: phpstorm }
   - { name: skype }
