@@ -15,6 +15,7 @@ homebrew_packages:
   - { name: ghq }
   - { name: git }
   - { name: go }
+  - { name: graphviz }
   - { name: jq }
   - { name: mysql-client }
   - { name: mysql-client, state: linked, install_options: force }
@@ -36,7 +37,6 @@ homebrew_packages:
 homebrew_cask_packages:
   - { name: atom }
   - { name: docker }
-  - { name: graphviz }
   - { name: java }
   - { name: keepingyouawake }
   - { name: phpstorm }
