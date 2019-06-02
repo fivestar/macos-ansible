@@ -12,7 +12,7 @@ $ xcode-select --install
 ```console
 $ git clone git@github.com:fivestar/macos-ansible.git src/github.com/fivestar/macos-ansible
 $ cd src/github.com/fivestar/macos-ansible
-$ make install-essentials
+$ make setup
 ```
 
 ### Provisioning
