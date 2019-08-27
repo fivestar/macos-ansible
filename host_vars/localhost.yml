@@ -15,6 +15,7 @@ homebrew_packages:
   - { name: ghq }
   - { name: git }
   - { name: go }
+  - { name: gpg }
   - { name: graphviz }
   - { name: jq }
   - { name: mysql-client }
@@ -39,6 +40,4 @@ homebrew_cask_packages:
   - { name: docker }
   - { name: java }
   - { name: keepingyouawake }
-  - { name: phpstorm }
-  - { name: skype }
 
