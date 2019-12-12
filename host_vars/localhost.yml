@@ -38,8 +38,8 @@ homebrew_packages:
   - { name: zsh }
 
 homebrew_cask_packages:
-  - { name: atom }
   - { name: docker }
   - { name: java }
   - { name: keepingyouawake }
+  - { name: visual-studio-code }
 
