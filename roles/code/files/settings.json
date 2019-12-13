@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "git.fetchOnPull": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.testOnSave": true,
+    "editor.wordWrap": "on",
+    "vim.useSystemClipboard": true,
+    "git.confirmSync": false,
+    "editor.formatOnSave": true
+}

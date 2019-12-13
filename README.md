@@ -1,8 +1,8 @@
 # macos-ansible
 
-## Setting up the macOS with Ansible
+## Setting up macOS
 
-### Installing essentials
+### Install essentials
 
 ```console
 $ sudo xcodebuild -license
@@ -15,10 +15,24 @@ $ cd src/github.com/fivestar/macos-ansible
 $ make setup
 ```
 
-### Provisioning
+### Provision
 
 ```console
 $ make provision
+```
+
+### Visual Studio Code
+
+#### Install user settings and extensions
+
+```console
+$ make code
+```
+
+#### Update a list of extensions
+
+```console
+$ make update-code-vars
 ```
 
 ### Extra packages
