@@ -1,8 +1,6 @@
 # macos-ansible
 
-## Setting up macOS
-
-### Install essentials
+## Installing essentials
 
 ```console
 $ sudo xcodebuild -license
@@ -15,44 +13,48 @@ $ cd src/github.com/fivestar/macos-ansible
 $ make setup
 ```
 
-### Provision
+## Provisioning
 
 ```console
-$ make provision
+$ make
 ```
 
-### Visual Studio Code
+## Visual Studio Code
 
-#### Install user settings and extensions
+### Install user settings and extensions
 
 ```console
-$ make code
+$ make vscode
 ```
 
-#### Update a list of extensions
+### Update a list of extensions
 
 ```console
-$ make update-code-vars
+$ make save-vscode-ext
 ```
 
-### Extra packages
+## Extra packages
 
-* [fivestar/dotfiles](https://github.com/fivestar/dotfiles)
-    ```console
-    $ make dotfiles
-    ```
+### [fivestar/dotfiles](https://github.com/fivestar/dotfiles)
 
-* [Shougo/dein.vim](https://github.com/Shougo/dein.vim)
-    ```console
-    $ make dein
-    ```
+```console
+$ make dotfiles
+```
 
-* [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
-    ```console
-    $ make solarized
-    ```
+### [Shougo/dein.vim](https://github.com/Shougo/dein.vim)
 
-* [Cloud SDK - Google Cloud Platform](https://cloud.google.com/sdk/downloads#interactive)
-    ```console
-    $ make gcloud
-    ```
+```console
+$ make dein
+```
+
+### [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+
+```console
+$ make solarized
+```
+
+### [Cloud SDK - Google Cloud Platform](https://cloud.google.com/sdk/downloads#interactive)
+
+```console
+$ make gcloud
+```

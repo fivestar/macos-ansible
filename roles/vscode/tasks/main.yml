@@ -4,9 +4,9 @@
     dest: "{{ ansible_env.HOME }}/Library/Application Support/Code/User/settings.json"
     state: link
     force: yes
-  tags: code
+  tags: vscode
 
 - name: install code extensions
   command: code --install-extension {{ item|quote }}
-  with_items: "{{ code_extensions }}"
-  tags: code
+  with_items: "{{ vscode_extensions }}"
+  tags: vscode

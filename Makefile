@@ -1,5 +1,5 @@
 PLAYBOOK_MACOS := macos.yml
-CODE_VARS_FILE := roles/code/vars/main.yml
+VSCODE_EXTENSIONS_FILE := vscode_extensions.yml
 
 .PHONY: all
 all: update provision
@@ -21,23 +21,23 @@ update:
 
 .PHONY: provision
 provision:
-	@ansible-playbook $(PLAYBOOK_MACOS) --skip-tags "code"
+	@ansible-playbook $(PLAYBOOK_MACOS) --skip-tags "vscode"
 
-.PHONY: code
-code:
-	@ansible-playbook $(PLAYBOOK_MACOS) --tags "code"
+.PHONY: vscode
+vscode:
+	@ansible-playbook $(PLAYBOOK_MACOS) --tags "vscode"
+
+.PHONY: save-vscode-ext
+save-vscode-ext:
+	- @echo '# automatically generated' > $(VSCODE_EXTENSIONS_FILE)
+	- @echo 'vscode_extensions:' >> $(VSCODE_EXTENSIONS_FILE)
+	- @code --list-extensions | sed -e 's/^/  - /' >> $(VSCODE_EXTENSIONS_FILE)
+	- @cat $(VSCODE_EXTENSIONS_FILE)
 
 .PHONY: dotfiles
 dotfiles:
 	@ghq get git@github.com:fivestar/dotfiles.git
 	@$(MAKE) -C $(HOME)/src/github.com/fivestar/dotfiles
-
-.PHONY: update-code-vars
-update-code-vars:
-	- @echo '# automatically generated' > $(CODE_VARS_FILE)
-	- @echo 'code_extensions:' >> $(CODE_VARS_FILE)
-	- @code --list-extensions | sed -e 's/^/  - /' >> $(CODE_VARS_FILE)
-	- @cat $(CODE_VARS_FILE)
 
 .PHONY: dein
 dein:
