@@ -15,5 +15,8 @@
     "editor.wordWrap": "on",
     "vim.useSystemClipboard": true,
     "git.confirmSync": false,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.currentLine.enabled": false
 }
