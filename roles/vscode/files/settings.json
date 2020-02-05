@@ -3,6 +3,9 @@
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
     "editor.fontSize": 14,
+    "editor.rulers": [
+        100
+    ],
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
     "workbench.editor.closeOnFileDelete": true,
@@ -18,5 +21,25 @@
     "editor.formatOnSave": true,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.statusBar.enabled": false,
-    "gitlens.currentLine.enabled": false
+    "gitlens.currentLine.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "go.testTimeout": "60s",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "commands": [
+                "redo"
+            ]
+        }
+    ]
 }
