@@ -3,7 +3,10 @@ vscode_extensions:
   - CoenraadS.bracket-pair-colorizer-2
   - donjayamanne.githistory
   - EditorConfig.EditorConfig
+  - Equinusocio.vsc-community-material-theme
   - Equinusocio.vsc-material-theme
+  - equinusocio.vsc-material-theme-icons
+  - jebbs.plantuml
   - ms-azuretools.vscode-docker
   - ms-vscode.Go
   - vscode-icons-team.vscode-icons

@@ -41,5 +41,7 @@
                 "redo"
             ]
         }
-    ]
+    ],
+    "editor.fontFamily": "Hack, Menlo, monospace",
+    "workbench.startupEditor": "newUntitledFile"
 }
