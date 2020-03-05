@@ -7,8 +7,11 @@ vscode_extensions:
   - Equinusocio.vsc-material-theme
   - equinusocio.vsc-material-theme-icons
   - jebbs.plantuml
+  - mauve.terraform
   - ms-azuretools.vscode-docker
+  - ms-kubernetes-tools.vscode-kubernetes-tools
   - ms-vscode.Go
+  - redhat.vscode-yaml
   - vscode-icons-team.vscode-icons
   - vscodevim.vim
   - vscoss.vscode-ansible
