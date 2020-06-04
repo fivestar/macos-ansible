@@ -1,29 +1,31 @@
 {
     "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
-    "editor.fontSize": 14,
-    "editor.rulers": [
-        100
-    ],
-    "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Hack, Menlo, monospace",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        100
+    ],
+    "editor.wordWrap": "on",
+    "extensions.ignoreRecommendations": false,
+    "alignment.surroundSpace": {
+        "comment": 1
+    },
+    "git.confirmSync": false,
     "git.fetchOnPull": true,
+    "go.formatTool": "goimports",
+    "go.lintTool": "golangci-lint",
+    "go.testTimeout": "60s",
+    "go.useLanguageServer": true,
     "go.autocompleteUnimportedPackages": true,
     "go.testOnSave": true,
-    "editor.wordWrap": "on",
     "vim.useSystemClipboard": true,
-    "git.confirmSync": false,
-    "editor.formatOnSave": true,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.statusBar.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "extensions.ignoreRecommendations": false,
-    "go.testTimeout": "60s",
     "vim.normalModeKeyBindings": [
         {
             "before": [
@@ -42,6 +44,6 @@
             ]
         }
     ],
-    "editor.fontFamily": "Hack, Menlo, monospace",
-    "workbench.startupEditor": "newUntitledFile"
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0
 }

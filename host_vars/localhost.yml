@@ -30,6 +30,7 @@ homebrew_packages:
   - { name: python }
   - { name: readline }
   - { name: rename }
+  - { name: rust }
   - { name: screen }
   - { name: source-highlight }
   - { name: the_silver_searcher }
