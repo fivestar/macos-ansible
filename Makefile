@@ -17,7 +17,7 @@ ansible:
 
 .PHONY: update
 update:
-	@git pull
+	@git pull --rebase
 
 .PHONY: provision
 provision:
