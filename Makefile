@@ -2,7 +2,7 @@ PLAYBOOK_MACOS := macos.yml
 VSCODE_EXTENSIONS_FILE := vscode_extensions.yml
 
 .PHONY: all
-all: update provision
+all: update ansible provision
 
 .PHONY: setup
 setup: homebrew ansible
@@ -13,6 +13,7 @@ brew:
 
 .PHONY: ansible
 ansible:
+	@brew update
 	@brew reinstall ansible
 
 .PHONY: update
