@@ -2,12 +2,11 @@
 vscode_extensions:
   - bmewburn.vscode-intelephense-client
   - CoenraadS.bracket-pair-colorizer-2
-  - donjayamanne.githistory
   - EditorConfig.EditorConfig
   - Equinusocio.vsc-community-material-theme
   - Equinusocio.vsc-material-theme
   - equinusocio.vsc-material-theme-icons
-  - golang.Go
+  - golang.go
   - hashicorp.terraform
   - jebbs.plantuml
   - ms-azuretools.vscode-docker
