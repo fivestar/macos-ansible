@@ -21,7 +21,6 @@
     "git.fetchOnPull": true,
     "go.formatTool": "goimports",
     "go.lintTool": "golangci-lint",
-    "go.testTimeout": "60s",
     "go.useLanguageServer": true,
     "go.autocompleteUnimportedPackages": true,
     "go.testOnSave": true,
@@ -46,5 +45,6 @@
     ],
     "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 0,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "go.toolsManagement.autoUpdate": true
 }
