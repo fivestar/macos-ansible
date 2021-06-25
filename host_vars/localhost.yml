@@ -3,7 +3,6 @@ homebrew_taps:
   - homebrew/core
 
 homebrew_packages:
-  - { name: ansible }
   - { name: autoconf }
   - { name: awscli }
   - { name: clang-format }
@@ -21,6 +20,8 @@ homebrew_packages:
   - { name: graphviz }
   - { name: grpcurl }
   - { name: jq }
+  - { name: kubectx }
+  - { name: kube-ps1 }
   - { name: mysql-client }
   - { name: mysql-client, state: linked, install_options: force }
   - { name: nodebrew }

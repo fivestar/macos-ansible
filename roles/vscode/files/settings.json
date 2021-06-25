@@ -46,5 +46,6 @@
     "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 0,
     "editor.tabSize": 2,
-    "go.toolsManagement.autoUpdate": true
+    "go.toolsManagement.autoUpdate": true,
+    "redhat.telemetry.enabled": false
 }
