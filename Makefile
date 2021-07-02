@@ -2,14 +2,14 @@ PLAYBOOK_MACOS := macos.yml
 VSCODE_EXTENSIONS_FILE := vscode_extensions.yml
 
 .PHONY: all
-all: update ansible provision
+all: update provision
 
 .PHONY: setup
 setup: homebrew ansible
 
 .PHONY: homebrew
 brew:
-	@ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 .PHONY: ansible
 ansible:
@@ -37,6 +37,7 @@ save-vscode-ext:
 
 .PHONY: dotfiles
 dotfiles:
+	@mkdir -p $(HOME)/tmp && chmod 700 $(HOME)/tmp
 	@ghq get git@github.com:fivestar/dotfiles.git
 	@$(MAKE) -C $(HOME)/src/github.com/fivestar/dotfiles
 
