@@ -38,6 +38,7 @@ homebrew_packages:
   - { name: rust }
   - { name: screen }
   - { name: source-highlight }
+  - { name: stern }
   - { name: the_silver_searcher }
   - { name: vim }
   - { name: wget }
