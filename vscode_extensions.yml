@@ -10,10 +10,10 @@ vscode_extensions:
   - golang.go
   - hashicorp.terraform
   - jebbs.plantuml
+  - johnpapa.vscode-peacock
   - mrmlnc.vscode-duplicate
   - ms-azuretools.vscode-docker
   - ms-kubernetes-tools.vscode-kubernetes-tools
-  - oderwat.indent-rainbow
   - plex.vscode-protolint
   - redhat.vscode-commons
   - redhat.vscode-yaml
@@ -21,7 +21,6 @@ vscode_extensions:
   - shd101wyy.markdown-preview-enhanced
   - vscode-icons-team.vscode-icons
   - vscodevim.vim
-  - vscoss.vscode-ansible
   - wayou.vscode-todo-highlight
   - wmaurer.change-case
   - wwm.better-align
