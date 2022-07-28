@@ -10,6 +10,7 @@ homebrew_packages:
   - { name: cmake }
   - { name: composer }
   - { name: coreutils }
+  - { name: cue }
   - { name: curl }
   - { name: curl, state: linked, install_options: force }
   - { name: direnv }
