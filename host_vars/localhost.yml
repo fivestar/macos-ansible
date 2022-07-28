@@ -5,7 +5,6 @@ homebrew_taps:
 
 homebrew_packages:
   - { name: autoconf }
-  - { name: awscli }
   - { name: clang-format }
   - { name: cmake }
   - { name: composer }
