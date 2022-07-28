@@ -48,5 +48,6 @@
     "go.toolsManagement.autoUpdate": true,
     "redhat.telemetry.enabled": false,
     "search.useIgnoreFiles": false,
-    "bracket-pair-colorizer-2.depreciation-notice": false
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "yaml.format.enable": false
 }
