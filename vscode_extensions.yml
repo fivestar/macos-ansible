@@ -1,6 +1,7 @@
 # automatically generated
 vscode_extensions:
   - bmewburn.vscode-intelephense-client
+  - brody715.vscode-cuelang
   - CoenraadS.bracket-pair-colorizer-2
   - cpmcgrath.codealignment-vscode
   - EditorConfig.EditorConfig
