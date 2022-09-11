@@ -48,5 +48,6 @@ homebrew_cask_packages:
   - { name: docker }
   - { name: font-hack }
   - { name: keepingyouawake }
+  - { name: temurin }
   - { name: visual-studio-code }
 
