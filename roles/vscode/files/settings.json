@@ -12,6 +12,7 @@
     "editor.rulers": [
         100
     ],
+    "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "extensions.ignoreRecommendations": false,
     "alignment.surroundSpace": {
@@ -24,6 +25,7 @@
     "go.useLanguageServer": true,
     "go.autocompleteUnimportedPackages": true,
     "go.testOnSave": true,
+    "go.toolsManagement.autoUpdate": true,
     "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindings": [
         {
@@ -43,11 +45,9 @@
             ]
         }
     ],
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.tabSize": 2,
-    "go.toolsManagement.autoUpdate": true,
     "redhat.telemetry.enabled": false,
     "search.useIgnoreFiles": false,
+    "yaml.format.enable": false,
     "bracket-pair-colorizer-2.depreciation-notice": false,
-    "yaml.format.enable": false
+    "vsicons.dontShowNewVersionMessage": true
 }
