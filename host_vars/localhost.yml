@@ -47,6 +47,7 @@ homebrew_packages:
 homebrew_cask_packages:
   - { name: docker }
   - { name: font-hack }
+  - { name: monitorcontrol }
   - { name: keepingyouawake }
   - { name: temurin }
   - { name: visual-studio-code }
