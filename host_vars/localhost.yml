@@ -31,11 +31,12 @@ homebrew_packages:
   - { name: peco }
   - { name: php }
   - { name: pinentry-mac }
+  - { name: plantuml }
   - { name: prototool }
   - { name: python }
   - { name: readline }
   - { name: rename }
-  - { name: rust }
+  - { name: rustup-init }
   - { name: screen }
   - { name: source-highlight }
   - { name: stern }
