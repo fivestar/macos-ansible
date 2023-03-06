@@ -50,6 +50,7 @@ homebrew_cask_packages:
   - { name: font-hack }
   - { name: monitorcontrol }
   - { name: keepingyouawake }
+  - { name: tailscale }
   - { name: temurin }
   - { name: visual-studio-code }
 
