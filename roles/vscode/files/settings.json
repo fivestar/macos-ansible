@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "GitHub Dark",
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.enablePreview": false,
@@ -49,5 +49,7 @@
     "search.useIgnoreFiles": false,
     "yaml.format.enable": false,
     "bracket-pair-colorizer-2.depreciation-notice": false,
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.guides.bracketPairs": true,
+    "trailing-spaces.trimOnSave": true
 }
