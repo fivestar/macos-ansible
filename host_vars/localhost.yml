@@ -23,9 +23,8 @@ homebrew_packages:
   - { name: jq }
   - { name: kubectx }
   - { name: kube-ps1 }
-  - { name: mysql-client }
-  - { name: mysql-client, state: linked, install_options: force }
-  - { name: nodebrew }
+#  - { name: mysql-client }
+#  - { name: mysql-client, state: linked, install_options: force }
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: peco }
@@ -54,3 +53,4 @@ homebrew_cask_packages:
   - { name: temurin }
   - { name: visual-studio-code }
 
+zsh_bin: /opt/homebrew/bin/zsh

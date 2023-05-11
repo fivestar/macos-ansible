@@ -2,12 +2,16 @@ PLAYBOOK_MACOS := macos.yml
 VSCODE_EXTENSIONS_FILE := vscode_extensions.yml
 
 .PHONY: all
-all: update provision
+all: macos
+
+.PHONY: update
+update:
+	@git pull --rebase
 
 .PHONY: setup
-setup: homebrew ansible
+setup: install-homebrew ansible
 
-.PHONY: homebrew
+.PHONY: install-homebrew
 brew:
 	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -16,13 +20,17 @@ ansible:
 	@brew update
 	@brew reinstall ansible
 
-.PHONY: update
-update:
-	@git pull --rebase
+.PHONY: macos
+macos:
+	@ansible-playbook $(PLAYBOOK_MACOS) --tags "homebrew,zsh" -K
 
-.PHONY: provision
-provision:
-	@ansible-playbook $(PLAYBOOK_MACOS) --skip-tags "vscode"
+.PHONY: homebrew
+homebrew:
+	@ansible-playbook $(PLAYBOOK_MACOS) --tags "homebrew"
+
+.PHONY: zsh
+zsh:
+	@ansible-playbook $(PLAYBOOK_MACOS) --tags "zsh" -K
 
 .PHONY: vscode
 vscode:

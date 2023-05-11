@@ -1,0 +1,8 @@
+- name: edit /etc/shells
+  lineinfile:
+    dest: /etc/shells
+    line: "{{ zsh_bin }}"
+  become: true
+
+- name: change shell to brew zsh
+  command: "chsh -s {{ zsh_bin }}"
