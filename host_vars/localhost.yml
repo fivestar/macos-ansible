@@ -2,6 +2,7 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/core
+  - yoheimuta/protolint
 
 homebrew_packages:
   - { name: autoconf }
@@ -31,7 +32,10 @@ homebrew_packages:
   - { name: php }
   - { name: pinentry-mac }
   - { name: plantuml }
+  - { name: protobuf }
+  - { name: protolint }
   - { name: prototool }
+  - { name: pyenv }
   - { name: python }
   - { name: readline }
   - { name: rename }

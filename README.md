@@ -58,3 +58,14 @@ make solarized
 ```bash
 make gcloud
 ```
+
+### [VOLTA](https://volta.sh/)
+
+```bash
+make volta
+```
+
+```bash
+volta install node
+```
+

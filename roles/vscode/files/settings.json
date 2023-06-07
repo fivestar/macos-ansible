@@ -8,7 +8,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontFamily": "Hack, Menlo, monospace",
     "editor.fontSize": 14,
-    "editor.formatOnSave": true,
     "editor.rulers": [
         100
     ],
@@ -51,5 +50,16 @@
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "vsicons.dontShowNewVersionMessage": true,
     "editor.guides.bracketPairs": true,
-    "trailing-spaces.trimOnSave": true
+    "trailing-spaces.trimOnSave": true,
+    "peacock.elementAdjustments": {
+        "activityBar": "lighten",
+        "statusBar": "none",
+        "titleBar": "none"
+    },
+    "protoc": {},
+    "rust-analyzer.check.overrideCommand": null,
+    "[proto3]": {
+        "editor.formatOnSave": false
+    },
+    "editor.formatOnSave": true
 }

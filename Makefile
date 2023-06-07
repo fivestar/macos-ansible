@@ -1,6 +1,8 @@
 PLAYBOOK_MACOS := macos.yml
 VSCODE_EXTENSIONS_FILE := vscode_extensions.yml
 
+DOTFILES_REPO := fivestar/dotfiles
+
 .PHONY: all
 all: macos
 
@@ -46,11 +48,12 @@ save-vscode-ext:
 .PHONY: dotfiles
 dotfiles:
 	@mkdir -p $(HOME)/tmp && chmod 700 $(HOME)/tmp
-	@ghq get git@github.com:fivestar/dotfiles.git
-	@$(MAKE) -C $(HOME)/src/github.com/fivestar/dotfiles
+	@ghq get git@github.com:$(DOTFILES_REPO).git
+	@$(MAKE) -C $(HOME)/src/github.com/$(DOTFILES_REPO)
 
 .PHONY: dein
 dein:
+	@pip3 install --upgrade pip
 	@pip3 install neovim
 	@curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | sh -s -- ~/.cache/dein
 
@@ -64,4 +67,8 @@ gcloud:
 	@gcloud auth login
 	@gcloud auth application-default login
 	@gcloud components install gke-gcloud-auth-plugin
+
+.PHONY: volta
+volta:
+	@curl https://get.volta.sh | bash
 
