@@ -36,7 +36,7 @@ homebrew_packages:
   - { name: protolint }
   - { name: prototool }
   - { name: pyenv }
-  - { name: python }
+#  - { name: python }
   - { name: readline }
   - { name: rename }
   - { name: rustup-init }
