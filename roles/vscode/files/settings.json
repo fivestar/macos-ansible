@@ -7,7 +7,6 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontFamily": "Hack, Menlo, monospace",
-    "editor.fontSize": 14,
     "editor.rulers": [
         100
     ],
@@ -61,5 +60,8 @@
     "[proto3]": {
         "editor.formatOnSave": false
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.fontSize": 13,
+    "markdown.extension.tableFormatter.enabled": false,
+    "git.openRepositoryInParentFolders": "never"
 }
