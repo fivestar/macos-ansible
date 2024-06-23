@@ -63,5 +63,18 @@
     "editor.formatOnSave": true,
     "editor.fontSize": 13,
     "markdown.extension.tableFormatter.enabled": false,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+        "vscode-kubernetes.minikube-path-mac": "/Users/fivestar/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+    },
+    "grpc-federation": {
+        "path": "${env:GOPATH}/src/github.com/kouzoh/merpay-grpc-federation/platform-proto/bin/grpc-federation-language-server",
+        "import-paths": [
+            "./proto"
+        ]
+    },
+    "files.associations": {
+        "*.html": "liquid"
+    }
 }

@@ -1,13 +1,10 @@
 homebrew_taps:
-  - homebrew/cask
   - homebrew/cask-fonts
-  - homebrew/core
   - yoheimuta/protolint
 
 homebrew_packages:
   - { name: autoconf }
   - { name: clang-format }
-  - { name: cmake }
   - { name: composer }
   - { name: coreutils }
   - { name: cue }
@@ -37,18 +34,20 @@ homebrew_packages:
   - { name: prototool }
   - { name: pyenv }
 #  - { name: python }
+  - { name: rbenv }
   - { name: readline }
   - { name: rename }
+  - { name: ripgrep }
   - { name: rustup-init }
   - { name: screen }
   - { name: source-highlight }
   - { name: stern }
-  - { name: the_silver_searcher }
   - { name: vim }
   - { name: wget }
   - { name: zsh }
 
 homebrew_cask_packages:
+  - { name: cmake }
   - { name: docker }
   - { name: font-hack }
   - { name: monitorcontrol }
