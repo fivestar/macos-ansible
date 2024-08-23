@@ -36,14 +36,8 @@ zsh:
 
 .PHONY: vscode
 vscode:
-	@ansible-playbook $(PLAYBOOK_MACOS) --tags "vscode"
-
-.PHONY: save-vscode-ext
-save-vscode-ext:
-	- @echo '# automatically generated' > $(VSCODE_EXTENSIONS_FILE)
-	- @echo 'vscode_extensions:' >> $(VSCODE_EXTENSIONS_FILE)
-	- @code --list-extensions | sed -e 's/^/  - /' >> $(VSCODE_EXTENSIONS_FILE)
-	- @cat $(VSCODE_EXTENSIONS_FILE)
+	#@ansible-playbook $(PLAYBOOK_MACOS) --tags "vscode"
+	@echo 'Do enable Settings Sync'
 
 .PHONY: dotfiles
 dotfiles:
@@ -53,9 +47,7 @@ dotfiles:
 
 .PHONY: dein
 dein:
-	@pip3 install --upgrade pip
-	@pip3 install neovim
-	@curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | sh -s -- ~/.cache/dein
+	@echo 'https://github.com/Shougo/dein-installer.vim'
 
 .PHONY: solarized
 solarized:

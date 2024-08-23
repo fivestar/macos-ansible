@@ -1,5 +1,5 @@
 homebrew_taps:
-  - homebrew/cask-fonts
+#  - homebrew/cask-fonts
   - yoheimuta/protolint
 
 homebrew_packages:
@@ -31,7 +31,7 @@ homebrew_packages:
   - { name: plantuml }
   - { name: protobuf }
   - { name: protolint }
-  - { name: prototool }
+#  - { name: prototool }
   - { name: pyenv }
 #  - { name: python }
   - { name: rbenv }

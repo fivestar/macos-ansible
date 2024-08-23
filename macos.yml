@@ -2,8 +2,6 @@
   become: no
   environment:
     HOMEBREW_CASK_OPTS: "--appdir=/Applications"
-  vars_files:
-    - vscode_extensions.yml
   roles:
     - homebrew
     - zsh

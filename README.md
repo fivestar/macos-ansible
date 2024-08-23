@@ -19,19 +19,6 @@ make setup
 make
 ```
 
-## Visual Studio Code
-
-### Install user settings and extensions
-
-```bash
-make vscode
-```
-
-### Update a list of extensions
-
-```bash
-make save-vscode-ext
-```
 
 ## Extra packages
 
@@ -42,6 +29,8 @@ make dotfiles
 ```
 
 ### [Shougo/dein.vim](https://github.com/Shougo/dein.vim)
+
+https://github.com/Shougo/dein-installer.vim
 
 ```bash
 make dein

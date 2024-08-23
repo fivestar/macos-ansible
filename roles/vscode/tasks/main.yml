@@ -6,7 +6,3 @@
     force: yes
   tags: vscode
 
-- name: install code extensions
-  command: code --install-extension {{ item|quote }}
-  with_items: "{{ vscode_extensions }}"
-  tags: vscode
