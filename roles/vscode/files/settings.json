@@ -75,6 +75,8 @@
         ]
     },
     "files.associations": {
+        "*.md.txt": "markdown",
         "*.html": "liquid"
-    }
+    },
+    "makefile.configureOnOpen": false
 }
