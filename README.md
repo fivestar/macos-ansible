@@ -8,7 +8,7 @@ xcode-select --install
 ```
 
 ```bash
-git clone https://github.com/fivestar/macos-ansible.git ~/src/github.com/fivestar/macos-ansible
+git clone git@github.com:fivestar/macos-ansible.git ~/src/github.com/fivestar/macos-ansible
 cd ~/src/github.com/fivestar/macos-ansible
 ```
 

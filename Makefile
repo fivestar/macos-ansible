@@ -37,9 +37,16 @@ dein:
 solarized:
 	@ghq get https://github.com/tomislav/osx-terminal.app-colors-solarized.git
 
+
 .PHONY: gcloud
-gcloud:
+gcloud: gcloud-install gcloud-setup
+
+.PHONY: gcloud-install
+gcloud-install:
 	@curl https://sdk.cloud.google.com | bash
+
+.PHONY: gcloud-setup
+gcloud-setup:
 	@gcloud auth login
 	@gcloud auth application-default login
 	@gcloud components install gke-gcloud-auth-plugin
