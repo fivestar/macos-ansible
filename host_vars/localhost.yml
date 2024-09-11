@@ -1,5 +1,4 @@
 homebrew_taps:
-#  - homebrew/cask-fonts
   - yoheimuta/protolint
 
 homebrew_packages:
@@ -21,8 +20,6 @@ homebrew_packages:
   - { name: jq }
   - { name: kubectx }
   - { name: kube-ps1 }
-#  - { name: mysql-client }
-#  - { name: mysql-client, state: linked, install_options: force }
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: peco }
@@ -31,9 +28,7 @@ homebrew_packages:
   - { name: plantuml }
   - { name: protobuf }
   - { name: protolint }
-#  - { name: prototool }
   - { name: pyenv }
-#  - { name: python }
   - { name: rbenv }
   - { name: readline }
   - { name: rename }
@@ -51,7 +46,6 @@ homebrew_cask_packages:
   - { name: docker }
   - { name: font-hack }
   - { name: monitorcontrol }
-  - { name: keepingyouawake }
   - { name: tailscale }
   - { name: temurin }
   - { name: visual-studio-code }
