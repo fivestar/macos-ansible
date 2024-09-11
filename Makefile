@@ -1,7 +1,4 @@
 PLAYBOOK_MACOS := macos.yml
-VSCODE_EXTENSIONS_FILE := vscode_extensions.yml
-
-DOTFILES_REPO := fivestar/dotfiles
 
 .PHONY: all
 all: macos
@@ -9,13 +6,6 @@ all: macos
 .PHONY: update
 update:
 	@git pull --rebase
-
-.PHONY: setup
-setup: install-homebrew ansible
-
-.PHONY: install-homebrew
-brew:
-	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 .PHONY: ansible
 ansible:
@@ -39,15 +29,9 @@ vscode:
 	#@ansible-playbook $(PLAYBOOK_MACOS) --tags "vscode"
 	@echo 'Do enable Settings Sync'
 
-.PHONY: dotfiles
-dotfiles:
-	@mkdir -p $(HOME)/tmp && chmod 700 $(HOME)/tmp
-	@ghq get git@github.com:$(DOTFILES_REPO).git
-	@$(MAKE) -C $(HOME)/src/github.com/$(DOTFILES_REPO)
-
 .PHONY: dein
 dein:
-	@echo 'https://github.com/Shougo/dein-installer.vim'
+	@open 'https://github.com/Shougo/dein-installer.vim'
 
 .PHONY: solarized
 solarized:

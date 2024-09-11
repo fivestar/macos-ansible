@@ -8,9 +8,18 @@ xcode-select --install
 ```
 
 ```bash
-git clone git@github.com:fivestar/macos-ansible.git src/github.com/fivestar/macos-ansible
-cd src/github.com/fivestar/macos-ansible
-make setup
+git clone https://github.com/fivestar/macos-ansible.git ~/src/github.com/fivestar/macos-ansible
+cd ~/src/github.com/fivestar/macos-ansible
+```
+
+https://brew.sh/ja/
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+zsh
+```
+
+```bash
+make ansible
 ```
 
 ## Provisioning
@@ -21,12 +30,6 @@ make
 
 
 ## Extra packages
-
-### [fivestar/dotfiles](https://github.com/fivestar/dotfiles)
-
-```bash
-make dotfiles
-```
 
 ### [Shougo/dein.vim](https://github.com/Shougo/dein.vim)
 
