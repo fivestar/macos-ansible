@@ -4,7 +4,6 @@ homebrew_taps:
 homebrew_packages:
   - { name: autoconf }
   - { name: clang-format }
-  - { name: composer }
   - { name: coreutils }
   - { name: cue }
   - { name: curl }
@@ -26,14 +25,9 @@ homebrew_packages:
   - { name: php }
   - { name: pinentry-mac }
   - { name: plantuml }
-  - { name: protobuf }
-  - { name: protolint }
-  - { name: pyenv }
-  - { name: rbenv }
   - { name: readline }
   - { name: rename }
   - { name: ripgrep }
-  - { name: rustup-init }
   - { name: screen }
   - { name: source-highlight }
   - { name: stern }
@@ -42,10 +36,8 @@ homebrew_packages:
   - { name: zsh }
 
 homebrew_cask_packages:
-  - { name: cmake }
   - { name: docker }
   - { name: font-hack }
-  - { name: monitorcontrol }
   - { name: tailscale }
   - { name: temurin }
   - { name: visual-studio-code }
