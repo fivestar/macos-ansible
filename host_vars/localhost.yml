@@ -1,5 +1,4 @@
-homebrew_taps:
-  - yoheimuta/protolint
+homebrew_taps: []
 
 homebrew_packages:
   - { name: autoconf }
