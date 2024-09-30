@@ -9,6 +9,7 @@ homebrew_packages:
   - { name: curl, state: linked, install_options: force }
   - { name: direnv }
   - { name: findutils }
+  - { name: gh }
   - { name: ghq }
   - { name: git }
   - { name: go }
