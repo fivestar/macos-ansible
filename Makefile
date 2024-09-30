@@ -1,7 +1,9 @@
 PLAYBOOK_MACOS := macos.yml
 
+.DEFAULT_GOAL := homebrew
+
 .PHONY: all
-all: macos
+all: ansible macos
 
 .PHONY: update
 update:

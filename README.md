@@ -19,13 +19,20 @@ zsh
 ```
 
 ```bash
-make ansible
+make all
 ```
 
 ## Provisioning
 
 ```bash
 make
+# or make homebrew
+```
+
+If you want to update ansible:
+
+```bash
+make ansible
 ```
 
 
