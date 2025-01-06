@@ -6,7 +6,6 @@ homebrew_packages:
   - { name: coreutils }
   - { name: cue }
   - { name: curl }
-  - { name: curl, state: linked, install_options: force }
   - { name: direnv }
   - { name: findutils }
   - { name: gh }
@@ -20,7 +19,6 @@ homebrew_packages:
   - { name: kubectx }
   - { name: kube-ps1 }
   - { name: openssl }
-  - { name: openssl, state: linked, install_options: force }
   - { name: peco }
   - { name: php }
   - { name: pinentry-mac }
@@ -34,6 +32,10 @@ homebrew_packages:
   - { name: vim }
   - { name: wget }
   - { name: zsh }
+
+homebrew_links:
+  - { name: curl }
+  #- { name: openssl } # error: Package not installed: openssl.
 
 homebrew_cask_packages:
   - { name: docker }

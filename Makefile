@@ -28,7 +28,6 @@ zsh:
 
 .PHONY: vscode
 vscode:
-	#@ansible-playbook $(PLAYBOOK_MACOS) --tags "vscode"
 	@echo 'Do enable Settings Sync'
 
 .PHONY: dein

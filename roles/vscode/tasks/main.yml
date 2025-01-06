@@ -1,8 +1,0 @@
-- name: link settings.json
-  file:
-    src: "{{ role_path }}/files/settings.json"
-    dest: "{{ ansible_env.HOME }}/Library/Application Support/Code/User/settings.json"
-    state: link
-    force: yes
-  tags: vscode
-

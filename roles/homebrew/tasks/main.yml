@@ -15,6 +15,14 @@
   with_items: "{{ homebrew_packages }}"
   tags: homebrew
 
+- name: link homebrew packages
+  homebrew:
+    name={{ item.name }}
+    state={{ item.state|default('linked') }}
+    install_options={{ item.install_option|default('force') }}
+  with_items: "{{ homebrew_links }}"
+  tags: homebrew
+
 - name: install homebrew cask packages
   homebrew_cask:
     name={{ item.name }}
